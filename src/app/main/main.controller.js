@@ -13,6 +13,7 @@
     }
     getTodos().then(function (res) {
       $scope.todos = res.data.todos;
+      
     })
     vm.awesomeThings = [];
     vm.classAnimation = '';
